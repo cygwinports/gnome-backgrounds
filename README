@@ -4,10 +4,10 @@ This module contains a set of backgrounds packaged with
 the GNOME desktop.
 
 Build requirements:
-  cygwin-1.5.24-2
-  cygport-0.3.1-1
-  gawk-3.1.5-4
-  intltool-0.35.5-1
+  cygwin-1.5.25-11
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  intltool-0.37.1-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -20,28 +20,27 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-backgrounds-2.20.0-1-src.tar.bz2
+  unpack gnome-backgrounds-2.22.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-backgrounds-2.20.0-1.cygport all
+  cygport ./gnome-backgrounds-2.22.0-1.cygport all
 
 This will create:
-  /usr/src/gnome-backgrounds-2.20.0-1-src.tar.bz2
-  /usr/src/gnome-backgrounds-2.20.0-1.tar.bz2
+  /usr/src/gnome-backgrounds-2.22.0-1-src.tar.bz2
+  /usr/src/gnome-backgrounds-2.22.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/gnome-backgrounds-2.20.0.README
-  /usr/share/doc/gnome-backgrounds-2.20.0/AUTHORS
-  /usr/share/doc/gnome-backgrounds-2.20.0/COPYING
-  /usr/share/doc/gnome-backgrounds-2.20.0/ChangeLog
-  /usr/share/doc/gnome-backgrounds-2.20.0/INSTALL
-  /usr/share/doc/gnome-backgrounds-2.20.0/MAINTAINERS
-  /usr/share/doc/gnome-backgrounds-2.20.0/NEWS
-  /usr/share/doc/gnome-backgrounds-2.20.0/README
+  /usr/share/doc/gnome-backgrounds-2.22.0/AUTHORS
+  /usr/share/doc/gnome-backgrounds-2.22.0/COPYING
+  /usr/share/doc/gnome-backgrounds-2.22.0/ChangeLog
+  /usr/share/doc/gnome-backgrounds-2.22.0/INSTALL
+  /usr/share/doc/gnome-backgrounds-2.22.0/MAINTAINERS
+  /usr/share/doc/gnome-backgrounds-2.22.0/NEWS
+  /usr/share/doc/gnome-backgrounds-2.22.0/README
   /usr/share/gnome-background-properties/gnome-branded.xml
   /usr/share/gnome-background-properties/gnome-nature.xml
   /usr/share/gnome-background-properties/gnome-tiles.xml
@@ -59,6 +58,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.22.0-1 -----
+Version bump for GNOME 2.22.
 
 ----- version 2.20.0-1 -----
 Version bump for GNOME 2.20.

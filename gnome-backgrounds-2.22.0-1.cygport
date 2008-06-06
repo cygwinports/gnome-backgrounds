@@ -1,0 +1,12 @@
+inherit gnome2
+
+DESCRIPTION="GNOME Desktop backgrounds"
+HOMEPAGE="http://art.gnome.org/"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# The po/ files are just for intltool, not to be installed
+	rm -fr ${D}/usr/share/locale/
+}
