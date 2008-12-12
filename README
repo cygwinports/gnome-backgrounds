@@ -4,10 +4,10 @@ This module contains a set of backgrounds packaged with
 the GNOME desktop.
 
 Build requirements:
-  cygwin-1.5.25-11
-  cygport-0.3.11-1
+  cygwin-1.5.25-15
+  cygport-0.4.3-1
   gawk-3.1.6-1
-  intltool-0.37.1-1
+  intltool-0.40.5-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -20,44 +20,53 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-backgrounds-2.22.0-1-src.tar.bz2
+  unpack gnome-backgrounds-2.24.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-backgrounds-2.22.0-1.cygport all
+  cygport ./gnome-backgrounds-2.24.0-1.cygport all
 
 This will create:
-  /usr/src/gnome-backgrounds-2.22.0-1-src.tar.bz2
-  /usr/src/gnome-backgrounds-2.22.0-1.tar.bz2
+  /usr/src/gnome-backgrounds-2.24.0-1-src.tar.bz2
+  /usr/src/gnome-backgrounds-2.24.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/gnome-backgrounds-2.22.0/AUTHORS
-  /usr/share/doc/gnome-backgrounds-2.22.0/COPYING
-  /usr/share/doc/gnome-backgrounds-2.22.0/ChangeLog
-  /usr/share/doc/gnome-backgrounds-2.22.0/INSTALL
-  /usr/share/doc/gnome-backgrounds-2.22.0/MAINTAINERS
-  /usr/share/doc/gnome-backgrounds-2.22.0/NEWS
-  /usr/share/doc/gnome-backgrounds-2.22.0/README
-  /usr/share/gnome-background-properties/gnome-branded.xml
+  /usr/share/doc/gnome-backgrounds-2.24.0/AUTHORS
+  /usr/share/doc/gnome-backgrounds-2.24.0/COPYING
+  /usr/share/doc/gnome-backgrounds-2.24.0/ChangeLog
+  /usr/share/doc/gnome-backgrounds-2.24.0/INSTALL
+  /usr/share/doc/gnome-backgrounds-2.24.0/MAINTAINERS
+  /usr/share/doc/gnome-backgrounds-2.24.0/NEWS
+  /usr/share/doc/gnome-backgrounds-2.24.0/README
+  /usr/share/gnome-background-properties/gnome-abstract.xml
   /usr/share/gnome-background-properties/gnome-nature.xml
-  /usr/share/gnome-background-properties/gnome-tiles.xml
-  /usr/share/gnome-background-properties/gnome-translucent.xml
-  /usr/share/pixmaps/backgrounds/gnome/branded/GNOME-Curves.png
+  /usr/share/pixmaps/backgrounds/gnome/abstract/Flow.png
+  /usr/share/pixmaps/backgrounds/gnome/abstract/Gulp.png
+  /usr/share/pixmaps/backgrounds/gnome/abstract/Silk.png
+  /usr/share/pixmaps/backgrounds/gnome/abstract/Spring.png
+  /usr/share/pixmaps/backgrounds/gnome/abstract/Waves.png
+  /usr/share/pixmaps/backgrounds/gnome/nature/Aqua.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/Blinds.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/Dune.jpg
   /usr/share/pixmaps/backgrounds/gnome/nature/FreshFlower.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/Garden.jpg
   /usr/share/pixmaps/backgrounds/gnome/nature/GreenMeadow.jpg
-  /usr/share/pixmaps/backgrounds/gnome/nature/OpenFlower.jpg
-  /usr/share/pixmaps/backgrounds/gnome/tiles/pattern-boats.svg
-  /usr/share/pixmaps/backgrounds/gnome/tiles/pattern-clouds.svg
-  /usr/share/pixmaps/backgrounds/gnome/tiles/pattern-stars.svg
-  /usr/share/pixmaps/backgrounds/gnome/translucent/ellipsis.svg
-  /usr/share/pixmaps/backgrounds/gnome/translucent/tentacles.svg
+  /usr/share/pixmaps/backgrounds/gnome/nature/LadyBird.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/RainDrops.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/Storm.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/TwoWings.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/Wood.jpg
+  /usr/share/pixmaps/backgrounds/gnome/nature/YellowFlower.jpg
 
 ------------------
 
 Port Notes:
+
+----- version 2.24.0-1 -----
+Version bump for GNOME 2.24.
 
 ----- version 2.22.0-1 -----
 Version bump for GNOME 2.22.
