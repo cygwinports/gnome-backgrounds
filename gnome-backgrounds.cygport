@@ -1,0 +1,18 @@
+inherit gnome2
+
+NAME="gnome-backgrounds"
+VERSION=3.6.1
+RELEASE=1
+CATEGORY="GNOME"
+SUMMARY="GNOME Desktop backgrounds"
+DESCRIPTION="This module contains a set of backgrounds packaged with the
+GNOME desktop."
+HOMEPAGE="http://art.gnome.org/"
+
+src_install() {
+	cd ${B}
+	cyginstall
+
+	# The po/ files are just for intltool, not to be installed
+	rm -fr ${D}/usr/share/locale/
+}
