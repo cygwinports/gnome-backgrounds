@@ -1,13 +1,15 @@
 inherit gnome2
 
 NAME="gnome-backgrounds"
-VERSION=3.8.1
+VERSION=3.10.1
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="GNOME Desktop backgrounds"
 DESCRIPTION="This module contains a set of backgrounds packaged with the
 GNOME desktop."
 HOMEPAGE="http://art.gnome.org/"
+
+ARCH=noarch
 
 src_install() {
 	cd ${B}
