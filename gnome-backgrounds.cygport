@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="gnome-backgrounds"
-VERSION=3.24.0
+VERSION=3.26.2
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="GNOME Desktop backgrounds"
